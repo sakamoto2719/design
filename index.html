@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700&family=Noto+Serif+Display:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/FV.png">
+        <title>design</title>
+    </head>
+</head>
+<!-- inner = コンテンツ幅 -->
+<!-- section内の画面幅いっぱい = item -->
+<!-- section title = h2 = 左右中央 -->
+<!-- 左右中央　①section title = h2 ②button-->
+<!-- section h3 , p ,text-box =左寄せ -->
+<!-- section内のimg = section-img（画面幅いっぱい） -->
+<!-- 四角い飾り decoration　-->
+<!-- flex-box = pcでflex -->
+<body class="wrapper">
+    <header>
+        <div class="inner flex-box">
+            <h1><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+        
+            <nav>
+                <ul class="flex-box">
+                    <li><a href="#concept">CONCEPT</a></li>
+                    <li><a href="#product">PRODUCT</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="#recruit">RECRUIT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <main>
+        <div class="big-img">
+            
+        </div>
+
+        <!-- news -->
+        <section id="news" class="news">
+            <div class="inner news-inner flex-box">
+                <div class="section-title">
+                    <h2>NEWS</h2>
+                    <h2>お知らせ</h2>
+                </div>
+                    <dl>
+                        <article class="box flex-box">
+                            <dt>2022.04.30</dt>
+                            <dd>テレビにて取材いただきました</dd> 
+                        </article>
+                        <article class="box flex-box">
+                            <dt>2022.04.12</dt>
+                        <dd>新商品「Sample interior」発売開始のお知らせ</dd>
+                        </article>
+                        <article class="box flex-box">
+                            <dt>2022.03.02</dt>
+                            <dd>WEBサイトをリリースしました</dd>
+                        </article>                  
+                    </dl>
+            </div>
+        
+        </section>
+
+        <!--  concept -->        
+        <section id="concept" class="concept">
+            <div class="flex-box">
+                <div class="inner concept-inner">
+                    <div class="section-title">
+                        <h2>CONCEPT</h2>
+                        <h2>コンセプト</h2>
+                    </div>
+                    <div class="text-box">
+                        <h3>この文章はダミーです。</h3>
+                        <p>文字の大きさ、量、字間、行間等を確認するために入れています。
+                            この文章はダミーです。文字の大きさ、量、字間、行間等を確認
+                            するために入れています。、字間、行間等を確認するために
+                            入れています。
+                        </p>
+                    </div> 
+                    <button onclick="location.href='#'" type="button">MORE</button>  
+                </div>
+
+                <div class="section-img">
+                    <img src="img/img-1.png" alt="コンセプト">
+                </div>
+            </div>    
+
+            <!-- 四角い飾り -->
+            <div class="decoration">  
+            </div>
+
+        </section>
+
+        <!-- prodact -->
+        <section id="product" class="product">
+            <div class="section-title">
+                <h2>PRODUCT</h2>
+                <h2>製品</h2>
+            </div>
+            <ul>
+                <!-- プロダクト1 -->
+                <li class="flex-box">
+                    <div class="section-img">
+                        <img src="img/Rectangle 5-2.png" alt="プロダクト1">
+                    </div>
+                    <div class="inner product-inner">
+                        <div class="text-box">
+                            <h3>Sample product1</h3>
+                            <p>
+                                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+                                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+                                、字間、行間等を確認するために入れています。
+                            </p>
+                        </div>                        
+                        <button onclick="location.href='#'" type="button">MORE</button>
+                    </div>
+                </li>
+
+                <!-- プロダクト2 -->
+                <li class="flex-box">
+                    <div class="section-img">
+                        <img src="img/Rectangle 5-1.png" alt="プロダクト2">
+                    </div>
+                    <div class="inner product-inner">
+                        <div class="text-box">
+                            <h3>Sample product2</h3>
+                            <p>
+                                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。
+                                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するため
+                            </p>
+                        </div>                        
+                        <button onclick="location.href='#'" type="button">MORE</button>
+                    </div>
+                </li>
+
+                <!-- プロダクト3 -->
+                <li class="flex-box">
+                    <div class="section-img">
+                        <img src="img/Rectangle 5.png" alt="プロダクト3">
+                    </div>
+                    <div class="inner product-inner">
+                        <div class="text-box">
+                            <h3>Sample product3</h3>
+                            <p>
+                                この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入
+                                れています。
+                            </p>
+                        </div>                        
+                        <button onclick="location.href='#'" type="button">MORE</button>
+                    </div>
+                </li> 
+            </ul>
+            <div class="prodact-more inner flex-box">
+                <a class="first" href="#">製品一覧を見る</a>
+                <div class="img">
+                    <a href="#"><img src="img/Arrow 1 (Stroke).png" alt=""></a>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- works -->
+        <section id="works" class="works">
+            <div class="section-title">
+                <h2>WORKS</h2>
+                <h2>導入事例</h2>
+            </div>
+
+            <div class="inner">
+                <ul class="works-inner flex-box"> 
+                    <!-- 実績1 -->
+                        <li>
+                            <div class="img-box">
+                                <!-- position relative -->                                            
+                                <img src="img/Rectangle 9-2.png" alt="ケース1">
+                                <p class="case-item">CACE.01</p>
+                                <!-- position absolute -->  
+                            </div>
+                            
+                            <div class="text-box">
+                                <h3>導入実績01</h3>
+                                <p>
+                                    テキストテキストテキストテキストテキストテキストテキストテキ
+                                    ストテキストテキストテキスト
+                                </p>
+                            </div>
+                        </li>
+        
+                    <!-- 実績2 -->                
+                        <li>
+                            <div class="img-box">
+                                <!-- position relative -->                                            
+                                <img src="img/Rectangle 9-1.png" alt="ケース2">
+                                <p class="case-item">CACE.02</p>
+                                <!-- position absolute -->  
+                            </div>
+                            <div class="text-box">
+                                <h3>導入実績02</h3>
+                                <p>
+                                    テキストテキストテキストテキストテキストテキストテキストテキ
+                                    ストテキストテキストテキスト
+                                </p>
+                            </div>
+                        </li>
+        
+                    <!-- 実績3 -->                
+                        <li>
+                            <div class="img-box">
+                                <!-- position relative -->                                            
+                                <img src="img/Rectangle 9.png" alt="ケース3">
+                                <p class="case-item">CACE.03</p>
+                                <!-- position absolute -->  
+                            </div>
+                            <div class="text-box">
+                                <h3>導入実績03</h3>
+                                <p>
+                                    テキストテキストテキストテキストテキストテキストテキストテキ
+                                    ストテキストテキストテキスト
+                                </p>
+                            </div>
+                        </li>                
+                    </ul>
+                    <button onclick="location.href='#'" type="button">MORE</button>
+            </div>
+            
+        </section>
+
+        <!-- company -->
+        <section id="company" class="company">
+            <div class="inner company-inner">
+                <div class="section-title">
+                    <h2>COMPANY</h2>
+                    <h2>会社概要</h2>
+                </div>
+                <table>
+                    <tr>
+                        <th>会社名</th>
+                        <td>株式会社Sample</td>
+                    </tr>
+                    <tr>
+                        <th>設立</th>
+                        <td>平成7年4月7日</td>
+                    </tr>
+                    <tr>
+                        <th>資本金</th>
+                        <td>1,000,000円</td>
+                    </tr>
+                    <tr>
+                        <th>所在地</th>
+                        <td class="box">
+                            <p>〒870-8501</p>
+                            <p>大分市大手町3丁目1番1号</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>代表者</th>
+                        <td class="box">
+                            <p>代表取締役</p>
+                            <p>サンプル　サンプル太郎</p>
+                        </td>
+                    </tr>
+                
+                </table>
+            </div>
+            <div class="imgs-box flex-box">
+                <img src="img/img04.png" alt="">
+                <img src="img/img03.png" alt="">
+                <img src="img/img02.png" alt="">
+                <img src="img/img01.png" alt="">
+            </div>
+        </section>
+
+        <!-- recruit -->
+        <section id="recruit" class="recruit flex-box">
+            <div class="inner recruit-inner">
+                <div class="section-title">
+                    <h2>RECRUIT</h2>
+                    <h2>採用情報</h2>
+                </div>
+                <div class="text-box">
+                    <p>この文章はダミーです。文字の大きさ、量、字間、行間等を
+                        確認するために入れています。この文章はダミーです。文字の大きさ、
+                        量、字間、行間等を確認するために
+                    </p>
+                </div> 
+                <button onclick="location.href='#'" type="button">MORE</button>
+            </div>
+            <!-- 四角い飾り -->
+            <div class="decoration">  
+            </div>
+
+            <div class="section-img">
+                <img src="img/img.png" alt="リクルート">
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact" class="contact">
+            <div class="inner contact-inner">
+                <a href="#">
+                    <div class="section-title">
+                        <h2>CONTACT</h2>
+                        <h2>お問い合わせ</h2>
+                    </div>
+                </a>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="inner">
+            <div class="box flex-box">
+                <img src="img/logo2.png" alt="">
+                <nav>
+                    <ul>
+                        <li><a href="#concept">CONCEPT</a></li>
+                        <li><a href="#product">PRODUCT</a></li>
+                        <li><a href="#works">WORKS</a></li>
+                    </ul>
+                </nav>
+                <div class="btn-group">
+                    <button onclick="location.href='#recruit'" type="button">RECRUIT</button>
+                    <button onclick="location.href='#contact'" type="button">CONTACT</button>
+                </div>
+            </div>
+            <p>Copyright&copy;2022 sample Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
